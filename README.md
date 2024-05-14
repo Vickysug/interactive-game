@@ -1,9 +1,16 @@
 # interactive-game
 
-## Create a  humorous  animated action/adventure about Singer Mika including his refugee experience and places he's lived that can be made into an adventure animated game. To target age 18 - 25 year olds. The player will comlplete challenges such as those that refugees face to highlight Mikas plight, travels and career.
+## This is a working project to create a  humorous  animated action/adventure game about the singer Mika, including his refugee experience and places he's lived. 
+
+It is to target age 18 - 25 year olds. The player will comlplete challenges such as those that refugees face to highlight Mikas plight, travels and career.
 
 
 ## Game title: Mika: The Hopelessly Optimistic Hero 
+
+Screenshot of opening game:
+
+![alt text](images/screen-shot.jpeg)
+
 ## Story:
 Mika, a flamboyant singer with a voice like sunshine and a heart full of wanderlust, isn't your average pop star. He's a citizen of the world, shaped by his childhood as a refugee and his globetrotting upbringing. But his world gets flipped upside down when the nefarious Baron Gloom (think: a monocle-wearing villain with a penchant for silence) steals all the world's music!
 ##
@@ -43,6 +50,8 @@ Mika's Refugee Memoir: Funny, heartwarming stories about his childhood experienc
 Mika's Mixtape Mayhem: Mini-games based on Mika's musical career, like composing a hit single or performing a high-energy concert.
 
 By the end of the game, players will have not only helped Mika restore music to the world, but also gained a deeper understanding of his journey and the challenges faced by refugees. It's a humorous adventure with a heart, highlighting Mika's optimism and the power of music to bring people together.
+
+
 
 #Link to deployed game:
 
