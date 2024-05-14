@@ -35,7 +35,7 @@ class Example extends Phaser.Scene
 
         
 
-                this.add.text(20, 50, 'Mika: The Hopelessly Optimistic Hero', { font: 'bold 42px Veranda', fill: '#c00303' });
+                this.add.text(20, 50, 'Mika: The Hopelessly Optimistic Hero', { font: 'bold 42px Veranda', fill: '#fdfcfc' });
                 this.add.text(20, 20, 'Beirut 1983', { font: 'bold 32px Courier New', fill: '#8B0000' });
         this.time.addEvent({
             delay: 3000,

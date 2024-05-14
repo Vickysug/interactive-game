@@ -16,7 +16,11 @@ Challenges with a Wink:
 Beirut Blitz:
 
  Race through a bustling market, dodging vendors and haggling for ingredients to make Mika's signature dish (a hilarious cooking mini-game). This level highlights the hustle and energy of his childhood home.
-Parisian Peril: Help Mika navigate a hilariously bureaucratic immigration office, deciphering nonsensical forms and dodging grumpy officials (think Monty Python meets paperwork). This level satirizes the complexities refugees face when seeking new homes.
+
+ ##
+Parisian Peril:
+
+ Help Mika navigate a hilariously bureaucratic immigration office, deciphering nonsensical forms and dodging grumpy officials (think Monty Python meets paperwork). This level satirizes the complexities refugees face when seeking new homes.
 ##
 London Lockdown: 
 
