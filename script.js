@@ -14,7 +14,7 @@ class Example extends Phaser.Scene
 
     create ()
     {
-        document.title = "Beirut 1983"; // Changes the title of the webpage
+        document.title = "Mika"; // Changes the title of the webpage
 
         this.add.image(400, 300, 'sky');
 
@@ -33,8 +33,10 @@ class Example extends Phaser.Scene
 
         emitter.startFollow(logo);
 
-        this.add.text(20, 20, 'Beirut 1983', { font: 'bold 32px Arial', fill: '#8B0000' });
+        
 
+                this.add.text(20, 50, 'Mika: The Hopelessly Optimistic Hero', { font: 'bold 42px Arial', fill: '#ee930b' });
+                this.add.text(20, 20, 'Beirut 1983', { font: 'bold 32px Arial', fill: '#8B0000' });
         this.time.addEvent({
             delay: 3000,
             loop: false,
