@@ -40,3 +40,7 @@ Mika's Mixtape Mayhem: Mini-games based on Mika's musical career, like composing
 
 By the end of the game, players will have not only helped Mika restore music to the world, but also gained a deeper understanding of his journey and the challenges faced by refugees. It's a humorous adventure with a heart, highlighting Mika's optimism and the power of music to bring people together.
 
+#Link to deployed game:
+
+https://vickysug.github.io/interactive-game/
+
