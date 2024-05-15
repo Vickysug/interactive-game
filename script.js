@@ -10,7 +10,7 @@ class Example extends Phaser.Scene {
     }
   
     create() {
-      document.title = "Beirut 1983"; // Changes the title of the webpage
+      document.title = "Mika's Adventures"; // Changes the title of the webpage
   
       this.add.image(400, 300, 'sky');
   
