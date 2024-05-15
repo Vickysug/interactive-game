@@ -10,7 +10,7 @@ class Example extends Phaser.Scene {
     }
   
     create() {
-      document.title = "Mika's Adventures"; // Changes the title of the webpage
+      document.title = "Beirut 1983"; // Changes the title of the webpage
   
       this.add.image(400, 300, 'sky');
   
@@ -28,9 +28,9 @@ class Example extends Phaser.Scene {
       logo.setCollideWorldBounds(true);
   
       emitter.startFollow(logo);
-  
-      this.add.text(20, 50, 'Mika: The Hopelessly Optimistic Hero', { font: 'bold 42px Veranda', fill: '#fdfcfc' });
-      this.add.text(20, 20, 'Beirut 1983', { font: 'bold 32px Courier New', fill: '#8B0000' });
+      this.add.text(20, 20, 'Mikas Adventures', { font: 'bold 65px Veranda', fill: '#fdfcfc' });
+      this.add.text(20, 100, 'Mika: The Hopelessly Optimistic Hero', { font: 'bold 42px Veranda', fill: '#fdfcfc' });
+      this.add.text(20, 200, 'Beirut 1983', { font: 'bold 50px Courier New', fill: '#000000' });
   
       // Create a clickable button or text for scene transition
       const startButton = this.add.text(400, 500, 'Start Game', { font: 'bold 40px Arial', fill: '#000501' });
@@ -61,6 +61,18 @@ class Example extends Phaser.Scene {
   
       // Adjust position and scaling as needed
       background.setScale(2); // Example: Scale the image by 2x
+  
+      // Add "Return to start" button
+      const returnButton = this.add.text(400, 500, 'Return to Start', { font: 'bold 40px Arial', fill: '#000501' });
+      returnButton.setInteractive();
+  
+      // Handle click event to switch back to start scene
+      returnButton.on('pointerdown', () => {
+        this.scene.start('Example');
+      });
+  
+      // Add some text to the NewScene so you can see something
+      this.add.text(20, 50, 'New Scene', { font: 'bold 42px Veranda', fill: '#fdfcfc' });
     }
   }
   
