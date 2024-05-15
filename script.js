@@ -30,7 +30,7 @@ class Example extends Phaser.Scene {
       emitter.startFollow(logo);
       this.add.text(20, 20, 'Mikas Adventures', { font: 'bold 65px Veranda', fill: '#fdfcfc' });
       this.add.text(20, 100, 'Mika: The Hopelessly Optimistic Hero', { font: 'bold 42px Veranda', fill: '#fdfcfc' });
-      this.add.text(20, 200, 'Beirut 1983', { font: 'bold 50px Courier New', fill: '#000000' });
+      
   
       // Create a clickable button or text for scene transition
       const startButton = this.add.text(400, 500, 'Start Game', { font: 'bold 40px Arial', fill: '#000501' });
@@ -71,8 +71,8 @@ class Example extends Phaser.Scene {
         this.scene.start('Example');
       });
   
-      // Add some text to the NewScene so you can see something
-      this.add.text(20, 50, 'New Scene', { font: 'bold 42px Veranda', fill: '#fdfcfc' });
+      // Add the requested text to the NewScene
+      this.add.text(400, 20, 'Beirut 1983', { font: 'bold 50px Courier New', fill: '#000000' });
     }
   }
   
