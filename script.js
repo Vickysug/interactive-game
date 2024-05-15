@@ -63,7 +63,7 @@ class Example extends Phaser.Scene {
       background.setScale(2); // Example: Scale the image by 2x
   
       // Add "Return to start" button
-      const returnButton = this.add.text(400, 500, 'Return to Start', { font: 'bold 40px Arial', fill: '#000501' });
+      const returnButton = this.add.text(20, 20, 'Return to Start', { font: 'bold 20px Arial', fill: '#000501' });
       returnButton.setInteractive();
   
       // Handle click event to switch back to start scene
