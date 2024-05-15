@@ -1,6 +1,6 @@
 # interactive-game
 
-## This is a working project to create a  humorous  animated action/adventure game about the singer Mika, including his refugee experience and places he's lived. 
+## This is a work in progress project to create a  humorous  animated action/adventure game about the singer Mika, including his refugee experience and places he's lived. 
 
 It is to target age 18 - 25 year olds. The player will comlplete challenges such as those that refugees face to highlight Mikas plight, travels and career.
 
